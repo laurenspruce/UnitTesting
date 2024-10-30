@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b90eb112-b61e-41f1-ad0d-c51ad29c0a09" name="Changes" comment="Adding calculator and bank account testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/example/DataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/example/IDataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/example/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/example/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/example/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/example/Session.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/example/example/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/example/BasketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/example/example/SessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/example/SessionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
