@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b90eb112-b61e-41f1-ad0d-c51ad29c0a09" name="Changes" comment="Adding calculator and bank account testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/example/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/example/DataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/example/IDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/example/IDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/example/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/example/Session.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/example/example/SessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/example/SessionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,53 +59,7 @@
       <recent name="example.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SessionTest.how_mocks_work">
-    <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example.example" />
-      <option name="MAIN_CLASS_NAME" value="example.example.BasketTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasketTest.verify_total_cost_in_basket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example.example" />
-      <option name="MAIN_CLASS_NAME" value="example.example.BasketTest" />
-      <option name="METHOD_NAME" value="verify_total_cost_in_basket" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example.example" />
-      <option name="MAIN_CLASS_NAME" value="example.example.ItemTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SessionTest.verify_if_basket_total_is_correct">
     <configuration name="SessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -134,13 +91,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SessionTest.verify_if_basket_has_correct_items" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example.example" />
+      <option name="MAIN_CLASS_NAME" value="example.example.SessionTest" />
+      <option name="METHOD_NAME" value="verify_if_basket_has_correct_items" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionTest.verify_if_basket_total_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example.example" />
+      <option name="MAIN_CLASS_NAME" value="example.example.SessionTest" />
+      <option name="METHOD_NAME" value="verify_if_basket_total_is_correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionTest.verify_lastName_returned_is_last_in_register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example.example" />
+      <option name="MAIN_CLASS_NAME" value="example.example.SessionTest" />
+      <option name="METHOD_NAME" value="verify_lastName_returned_is_last_in_register" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SessionTest.verify_if_basket_total_is_correct" />
+        <item itemvalue="JUnit.SessionTest.verify_if_basket_has_correct_items" />
+        <item itemvalue="JUnit.SessionTest.verify_lastName_returned_is_last_in_register" />
         <item itemvalue="JUnit.SessionTest.how_mocks_work" />
         <item itemvalue="JUnit.SessionTest" />
-        <item itemvalue="JUnit.BasketTest" />
-        <item itemvalue="JUnit.BasketTest.verify_total_cost_in_basket" />
-        <item itemvalue="JUnit.ItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,11 +174,36 @@
       <option name="project" value="LOCAL" />
       <updated>1730215712267</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding calculator and bank account testing">
+      <option name="closed" value="true" />
+      <created>1730295282461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730295282461</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding calculator and bank account testing">
+      <option name="closed" value="true" />
+      <created>1730295313808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730295313808</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding calculator and bank account testing">
+      <option name="closed" value="true" />
+      <created>1730295325724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730295325724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added 4 more classes and some more testing on session test." />
     <MESSAGE value="Adding calculator and bank account testing" />
     <option name="LAST_COMMIT_MESSAGE" value="Adding calculator and bank account testing" />
   </component>
@@ -184,6 +214,15 @@
           <url>file://$PROJECT_DIR$/src/test/java/example/example/BankAccountTest.java</url>
           <line>116</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/example/example/SessionTest.java</url>
+          <line>71</line>
+          <properties class="example.example.SessionTest" method="verify_if_basket_has_correct_items">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
