@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b90eb112-b61e-41f1-ad0d-c51ad29c0a09" name="Changes" comment="Adding calculator and bank account testing" />
+    <list default="true" id="b90eb112-b61e-41f1-ad0d-c51ad29c0a09" name="Changes" comment="Adding calculator and bank account testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tdd/HighestNumberFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tdd/HighestNumberFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +47,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tdd" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -53,7 +60,23 @@
       <recent name="example.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SessionTest.verify_if_last_item_correct">
+  <component name="RunManager" selected="JUnit.HighestNumberFinderTest.find_highest_in_array_of_one_expect_single_item">
+    <configuration name="HighestNumberFinderTest.find_highest_in_array_of_one_expect_single_item" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.HighestNumberFinderTest" />
+      <option name="METHOD_NAME" value="find_highest_in_array_of_one_expect_single_item" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SessionTest.verify_getting_last_item_sold" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -118,29 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SessionTest.verify_lastName_returned_is_last_in_register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example.example" />
-      <option name="MAIN_CLASS_NAME" value="example.example.SessionTest" />
-      <option name="METHOD_NAME" value="verify_lastName_returned_is_last_in_register" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HighestNumberFinderTest.find_highest_in_array_of_one_expect_single_item" />
         <item itemvalue="JUnit.SessionTest.verify_if_last_item_correct" />
         <item itemvalue="JUnit.SessionTest.verify_getting_last_item_sold" />
         <item itemvalue="JUnit.SessionTest.verify_if_basket_total_is_correct" />
         <item itemvalue="JUnit.SessionTest.verify_if_basket_has_correct_items" />
-        <item itemvalue="JUnit.SessionTest.verify_lastName_returned_is_last_in_register" />
       </list>
     </recent_temporary>
   </component>
