@@ -59,8 +59,8 @@
       <recent name="example.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SessionTest.verify_if_basket_total_is_correct">
-    <configuration name="SessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SessionTest.verify_if_last_item_correct">
+    <configuration name="SessionTest.verify_getting_last_item_sold" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -70,22 +70,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="example.example" />
       <option name="MAIN_CLASS_NAME" value="example.example.SessionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SessionTest.how_mocks_work" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example.example" />
-      <option name="MAIN_CLASS_NAME" value="example.example.SessionTest" />
-      <option name="METHOD_NAME" value="how_mocks_work" />
+      <option name="METHOD_NAME" value="verify_getting_last_item_sold" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,6 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SessionTest.verify_if_last_item_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example.example" />
+      <option name="MAIN_CLASS_NAME" value="example.example.SessionTest" />
+      <option name="METHOD_NAME" value="verify_if_last_item_correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SessionTest.verify_lastName_returned_is_last_in_register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SessionTest.verify_if_last_item_correct" />
+        <item itemvalue="JUnit.SessionTest.verify_getting_last_item_sold" />
         <item itemvalue="JUnit.SessionTest.verify_if_basket_total_is_correct" />
         <item itemvalue="JUnit.SessionTest.verify_if_basket_has_correct_items" />
         <item itemvalue="JUnit.SessionTest.verify_lastName_returned_is_last_in_register" />
-        <item itemvalue="JUnit.SessionTest.how_mocks_work" />
-        <item itemvalue="JUnit.SessionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,12 +199,29 @@
       <option name="project" value="LOCAL" />
       <updated>1730295325724</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding calculator and bank account testing">
+      <option name="closed" value="true" />
+      <created>1730300895446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730300895446</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding calculator and bank account testing">
+      <option name="closed" value="true" />
+      <created>1730300906434</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730300906434</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added 4 more classes and some more testing on session test." />
+    <MESSAGE value="Adding getTotalPrice()" />
     <MESSAGE value="Adding calculator and bank account testing" />
     <option name="LAST_COMMIT_MESSAGE" value="Adding calculator and bank account testing" />
   </component>
@@ -217,7 +235,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/example/example/SessionTest.java</url>
-          <line>71</line>
+          <line>93</line>
           <properties class="example.example.SessionTest" method="verify_if_basket_has_correct_items">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

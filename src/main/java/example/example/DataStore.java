@@ -26,6 +26,21 @@ public class DataStore implements IDataStore{
         basket.addItem(item1);
         basket.addItem(item2);
         basket.addItem(item3);
+
         throw new RuntimeException("We should never get here, we are simulating a call out of the application");
+    }
+
+    @Override
+    public Item getTheLastItemSold() {
+        Basket basket = new Basket();
+        Item item1 = new Item("Bananas", 6, 0.19);
+        Item item2 = new Item("Avocado", 3, 0.89);
+        Item item3 = new Item("Spinach", 1, 1.27);
+        basket.addItem(item1);
+        basket.addItem(item2);
+        basket.addItem(item3);
+
+        // Return the last item sold
+        return item3; // Change this to return the last added item
     }
 }

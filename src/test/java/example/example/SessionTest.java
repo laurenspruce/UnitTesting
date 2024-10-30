@@ -67,7 +67,29 @@ class SessionTest {
         assertEquals(expectedResult, actualResult);
     }
 
-    // Other test methods...
+    @Test
+    public void verify_if_last_item_correct() {
+        // Arrange
+        Item item = new Item("Bananas", 6, 0.19); // Example item
+        ObjectMapper objectMapper = new ObjectMapper();
+        String expectedResult = "";
+        try {
+            expectedResult = objectMapper.writeValueAsString(item);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        // Mocking IDataStore
+        IDataStore dataStore = mock(IDataStore.class);
+        when(dataStore.getTheLastItemSold()).thenReturn(item); // Mock the correct method
+        Session cut = new Session(dataStore);
+        // Act
+        String actualResult = cut.getTheLastItemSold(); // Call the correct method to retrieve last item
+
+        // Assert
+        assertEquals(expectedResult, actualResult);
+        verify(dataStore, times(1)).getTheLastItemSold(); //verifying if the last item sold
+    }
+
     @Test
     public void verify_if_basket_has_correct_items()
     {
@@ -103,6 +125,7 @@ class SessionTest {
     public void verify_if_basket_total_is_correct()
     {
         // arrange
+
         ObjectMapper objectMapper = new ObjectMapper();
         String expectedResult = "";
 
@@ -126,6 +149,8 @@ class SessionTest {
         // assert
         assertEquals(expectedResult, actualResult);
     }
+
+
 
 
 }
