@@ -1,12 +1,15 @@
 package example.example;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 
 public class Basket
 {
     private ArrayList<Item> itsItems = new ArrayList<>();
+
+    //default constructor
+    public Basket(){
+
+    }
 
     public Basket(Basket other) {
         itsItems = new ArrayList<Item>(other.itsItems);

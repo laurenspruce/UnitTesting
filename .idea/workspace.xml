@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b90eb112-b61e-41f1-ad0d-c51ad29c0a09" name="Changes" comment="Adding calculator and bank account testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/example/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/example/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/example/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/example/BasketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/example/ItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/example/SessionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/example/DataStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/example/IDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/example/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/example/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/example/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/example/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/example/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/example/BasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/example/SessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/example/SessionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,16 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -61,22 +63,7 @@
       <recent name="example.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasketTest.verify_total_cost_in_basket">
-    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example.example" />
-      <option name="MAIN_CLASS_NAME" value="example.example.BankAccountTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SessionTest.how_mocks_work">
     <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -108,21 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example.example" />
-      <option name="MAIN_CLASS_NAME" value="example.example.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -138,13 +110,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example.example" />
+      <option name="MAIN_CLASS_NAME" value="example.example.SessionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionTest.how_mocks_work" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example.example" />
+      <option name="MAIN_CLASS_NAME" value="example.example.SessionTest" />
+      <option name="METHOD_NAME" value="how_mocks_work" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BasketTest.verify_total_cost_in_basket" />
+        <item itemvalue="JUnit.SessionTest.how_mocks_work" />
+        <item itemvalue="JUnit.SessionTest" />
         <item itemvalue="JUnit.BasketTest" />
+        <item itemvalue="JUnit.BasketTest.verify_total_cost_in_basket" />
         <item itemvalue="JUnit.ItemTest" />
-        <item itemvalue="JUnit.BankAccountTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>

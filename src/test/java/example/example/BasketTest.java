@@ -19,22 +19,6 @@ class BasketTest {
 
 
     }
-    @Test
-    void verify_total_cost_in_basket() {
-
-        //arrange
-        Basket cut = new Basket();
-        cut.addItem(item1);
-        cut.addItem(item2);
-        cut.addItem(item3);
-        double expectedResult = 5.08;
-
-
-        //act
-        double actualResult = cut.getTotal();
-        //assert
-        assertEquals(expectedResult, actualResult, 2);
-    }
 
     @Test
     void verify_basket_copy_works(){
@@ -43,8 +27,14 @@ class BasketTest {
         old.addItem(item1);
         old.addItem(item2);
         old.addItem(item3);
+        double expectedResult = 5.08;
+        Basket cut = new Basket(old);
 
+        //act
+        double actualResult = cut.getTotal();
 
+        //assert
+        assertEquals(expectedResult, actualResult, 2);
     }
 
 
