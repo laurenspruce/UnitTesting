@@ -24,8 +24,10 @@ class SessionTest
         int actualResult = names.size();
         //assert
         assertEquals(expectedResult, actualResult);
-
+        //verification testing
         verify(names, times(1)).size();
+        verify(names, times(1)).add(any()); //dont care what data was passed in just want to check the mock
+        //explain after lunch how to use in the code
     }
     @Test
     public void verify_if_basket_has_correct_items()
