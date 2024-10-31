@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b90eb112-b61e-41f1-ad0d-c51ad29c0a09" name="Changes" comment="Adding calculator and bank account testing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tdd/HighestNumberFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tdd/HighestNumberFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tdd/HighestNumberFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tdd/HighestNumberFinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +60,7 @@
       <recent name="example.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.example in Test">
+  <component name="RunManager" selected="JUnit.HighestNumberFinderTest">
     <configuration name="HighestNumberFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -132,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.example in Test" />
         <item itemvalue="JUnit.HighestNumberFinderTest" />
+        <item itemvalue="JUnit.example in Test" />
         <item itemvalue="JUnit.HighestNumberFinderTest.find_highest_in_array_of_two_ascending_expect_first_element" />
         <item itemvalue="JUnit.HighestNumberFinderTest.find_highest_in_array_of_two_descending_expect_first_element" />
         <item itemvalue="JUnit.HighestNumberFinderTest.find_highest_in_array_of_one_expect_single_item" />
