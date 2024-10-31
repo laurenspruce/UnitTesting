@@ -54,6 +54,23 @@ public class HighestNumberFinderTest {
 
     }
 
+    // New test for an array with negative numbers
+    @Test
+    public void find_highest_in_array_with_negatives_expect_highest() {
+        // Arrange
+        int input[] = {4, 5, -8, 3, 11, -21, 6};
+        HighestNumberFinder cut = new HighestNumberFinder();
+        int expectedResult = 11;
+
+        // Act
+        int actualResult = cut.findHighestNumber(input);
+
+        // Assert
+        assertEquals(expectedResult, actualResult);
+    }
+
+
+
 
 
 }
