@@ -69,6 +69,21 @@ public class HighestNumberFinderTest {
         assertEquals(expectedResult, actualResult);
     }
 
+    // New test for an array with duplicate highest numbers
+    @Test
+    public void find_highest_in_array_with_duplicates_expect_one() {
+        // Arrange
+        int input[] = {1, 2, 2, 3, 3, 3, 2, 4, 4};
+        HighestNumberFinder cut = new HighestNumberFinder();
+        int expectedResult = 4;
+
+        // Act
+        int actualResult = cut.findHighestNumber(input);
+
+        // Assert
+        assertEquals(expectedResult, actualResult);
+    }
+
 
 
 

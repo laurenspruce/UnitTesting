@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b90eb112-b61e-41f1-ad0d-c51ad29c0a09" name="Changes" comment="Adding calculator and bank account testing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tdd/HighestNumberFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tdd/HighestNumberFinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
